@@ -1,6 +1,72 @@
 :root {
-    --gold-linear: linear-gradient(#FEA36F, #062630);
+  --gold-linear: linear-gradient(120deg, #fea36f, #062630 50%);
+}
+
+/* header styles */
+.pattern-bg {
+    padding: 32px 0 80px;
+    background-color: #FAF5F3;
+    background-image: url('../images/bg-pattern.png');
+    background-repeat: repeat;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.pattern-bg::after {
+    content: "";
+    position: absolute;
+    right: -212px;
+    bottom: -458px;
+    width: 684px;
+    height: 684px;
+    background: #9CC9DA;
+    filter: blur(200px);
+    border-radius: 50%;
+    opacity: 40%;
+    pointer-events: none;
+    z-index: 2;
 }
 
 
-/* header styles */
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  max-width: 1184px;
+  margin: 0px auto 80px;
+}
+.section-1 {
+  display: flex;
+  align-items: center;
+  max-width: 1174px;
+  margin: 0 auto;
+  gap: 64px;
+}
+.review-btn {
+  padding: 20.5px 24px;
+  max-width: 380px;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  background-color: #fff5ef;
+}
+.person-reviews {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.persons img {
+  border-radius: 50%;
+  border: 1.5px solid #ffffff;
+  margin-left: -10px;
+}
+.persons img:first-child {
+    margin-left: 0;
+}
+.star-icons {
+    margin-bottom: 4px;
+}
+.section-1-right img {
+    border-radius: 5px;
+    z-index: 2;
+}

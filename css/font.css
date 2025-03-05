@@ -1,5 +1,45 @@
+h1 {
+  font-family: "inter";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -6%;
+}
+
 .section-1-left h2 {
-    font-family: "Martian Mono";
-    font-size: 62px;
-    font-weight: 700;
+  font-family: "Martian Mono";
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74.4px;
+  letter-spacing: -2px;
+  background: var(--gold-linear);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-1-left p {
+  font-family: "inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #385159;
+  margin: 24px 0 32px;
+}
+
+.review-btn a {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  color: #062630;
+}
+
+.star-rev h6 {
+  font-family: "Martian Mono";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+  text-align: center;
 }
