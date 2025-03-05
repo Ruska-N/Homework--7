@@ -4,30 +4,24 @@
 
 /* header styles */
 .pattern-bg {
-    padding: 32px 0 80px;
-    background-color: #FAF5F3;
-    background-image: url('../images/bg-pattern.png');
-    background-repeat: repeat;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+  padding: 32px 0 80px;
+  background-color: #faf5f3;
+  background-image: url("../images/bg-pattern.png");
+  position: relative;
+  overflow: hidden;
 }
 .pattern-bg::after {
-    content: "";
-    position: absolute;
-    right: -212px;
-    bottom: -458px;
-    width: 684px;
-    height: 684px;
-    background: #9CC9DA;
-    filter: blur(200px);
-    border-radius: 50%;
-    opacity: 40%;
-    pointer-events: none;
-    z-index: 2;
+  content: "";
+  position: absolute;
+  right: -212px;
+  bottom: -458px;
+  width: 684px;
+  height: 684px;
+  background: #9cc9da;
+  filter: blur(200px);
+  border-radius: 50%;
+  opacity: 60%;
 }
-
-
 .header {
   display: flex;
   justify-content: flex-start;
@@ -61,12 +55,27 @@
   margin-left: -10px;
 }
 .persons img:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 .star-icons {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 .section-1-right img {
-    border-radius: 5px;
-    z-index: 2;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+/* section-2 styles */
+.sec-2 {
+    padding: 120px;
+}
+.section-2 {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.section-2-left img {
+    border-radius: 15px;
 }
