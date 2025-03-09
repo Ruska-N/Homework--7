@@ -76,6 +76,53 @@
     gap: 80px;
     align-items: center;
 }
-.section-2-left img {
+.section-2-left img, .section-3-right img {
     border-radius: 15px;
+}
+
+/* section 3 styles */
+.section-3 {
+    max-width: 1170px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+.oval {
+    position: relative;
+}
+.oval::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 158px;
+    height: 68px;
+    background: url('../images/oval-vector-orange.svg') no-repeat center;
+    background-size: contain;
+}
+.section-3-icons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 31px;
+    width: 119.56px;
+    height: 138px;
+}
+.icon {
+    position: absolute;
+}
+.ts {
+    top: 0;
+    left: 20px;
+}
+.skyblue {
+    bottom: 12px;
+    right: 0;
+}
+.github {
+    left: 0;
+    bottom: 0;
 }
