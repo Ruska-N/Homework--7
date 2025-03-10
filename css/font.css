@@ -2,7 +2,7 @@ h1 {
   font-family: "inter", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  letter-spacing: -6%;
+  letter-spacing: -1.2px;
 }
 
 .section-1-left h2 {
@@ -31,7 +31,6 @@ h1 {
   font-weight: 600;
   font-size: 18px;
   letter-spacing: -1px;
-  color: #062630;
 }
 
 .star-rev h6 {
@@ -41,6 +40,7 @@ h1 {
   line-height: 16.8px;
   letter-spacing: -1px;
   text-align: center;
+  color: #385159;
 }
 
 .section-2-right h2 {
@@ -74,6 +74,7 @@ h1 {
   font-size: 20px;
   line-height: 140%;
   letter-spacing: -0.5px;
+  color: #385159;
 }
 strong {
   font-weight: bold;
@@ -87,7 +88,6 @@ strong {
   text-align: center;
   width: 512px;
   margin: 0 auto;
-  color: #062630;
 }
 .wrap {
   font-family: "Martian Mono";
@@ -103,14 +103,13 @@ strong {
   line-height: 130%;
   letter-spacing: -2px;
   text-align: center;
-  color: #062630;
 }
 .card-1 h3,
 .card-2 h3 {
   font-family: "Martian Mono";
   font-weight: 600;
   font-size: 24px;
-  line-height: 110.00000000000001%;
+  line-height: 110%;
   letter-spacing: -1px;
   margin-bottom: 24px;
 }
@@ -146,7 +145,6 @@ strong {
   font-weight: 600;
   font-size: 18px;
   letter-spacing: -1px;
-  color: #062630;
 }
 .section-6 h2 {
   font-family: "Martian Mono";
@@ -156,7 +154,6 @@ strong {
   letter-spacing: -1px;
   text-align: center;
   margin-bottom: 32px;
-  color: #062630;
 }
 .section-6 h6 {
   font-family: Inter;

@@ -1,5 +1,11 @@
 :root {
   --gold-linear: linear-gradient(120deg, #fea36f, #062630 50%);
+  --btn-linear: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+  --dark-btn: linear-gradient(90deg, #385159 0%, #062630 100%);
+}
+
+* {
+    color: #062630;
 }
 
 /* header styles */
@@ -43,7 +49,10 @@
   max-width: 380px;
   border: 2px solid #062630;
   border-radius: 8px;
-  background-color: #fff5ef;
+  background: #fff5ef;
+}
+.review-btn:hover, .btn:hover {
+    background: var(--btn-linear);
 }
 .person-reviews {
   display: flex;
@@ -258,6 +267,7 @@ footer {
   background-color: #062630;
   background-image: url("../images/bg-pattern.png");
   color: #ffffff;
+  border-radius: 16px 16px 0 0;
 }
 .footer {
   max-width: 753px;
@@ -273,6 +283,9 @@ footer {
   border: 2px solid #ffffff;
   border-radius: 8px;
 }
+.footer-btn:hover {
+    background: var(--dark-btn);
+}
 .footer-btn a {
   color: #ffffff;
 }
@@ -284,6 +297,9 @@ footer {
   margin: 0 auto;
   border-top: 1px solid #e6e1df;
   margin-top: 64px;
+}
+.copy h6 {
+    color: white;
 }
 .social {
   display: flex;
