@@ -13,8 +13,8 @@
 .pattern-bg::after {
   content: "";
   position: absolute;
-  right: -212px;
-  bottom: -458px;
+  right: -472px;
+  bottom: -240px;
   width: 684px;
   height: 684px;
   background: #9cc9da;
@@ -67,62 +67,112 @@
 
 /* section-2 styles */
 .sec-2 {
-    padding: 120px;
+  padding: 120px;
 }
 .section-2 {
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    gap: 80px;
-    align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  align-items: center;
 }
-.section-2-left img, .section-3-right img {
-    border-radius: 15px;
+.section-2-left img,
+.section-3-right img {
+  border-radius: 15px;
 }
 
 /* section 3 styles */
 .section-3 {
-    max-width: 1170px;
-    display: flex;
-    gap: 80px;
-    align-items: center;
-    margin: 0 auto;
-    position: relative;
+  max-width: 1170px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
 }
 .oval {
-    position: relative;
+  position: relative;
 }
 .oval::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 158px;
-    height: 68px;
-    background: url('../images/oval-vector-orange.svg') no-repeat center;
-    background-size: contain;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 158px;
+  height: 68px;
+  background: url("../images/oval-vector-orange.svg") no-repeat center;
+  background-size: contain;
 }
 .section-3-icons {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 31px;
-    width: 119.56px;
-    height: 138px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 31px;
+  width: 119.56px;
+  height: 138px;
 }
 .icon {
-    position: absolute;
+  position: absolute;
 }
 .ts {
-    top: 0;
-    left: 20px;
+  top: 0;
+  left: 20px;
 }
-.skyblue {
-    bottom: 12px;
-    right: 0;
+.react {
+  bottom: 12px;
+  right: 0;
 }
 .github {
-    left: 0;
-    bottom: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* section 4 styles */
+.sec-4 {
+  padding: 120px;
+}
+.section-4 {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 80px 60px 70px 60px;
+  border-radius: 12px;
+  background-color: #faf5f3;
+  background-image: url("../images/bg-pattern.png");
+  position: relative;
+  overflow: hidden;
+}
+.section-4::after {
+    content: "";
+    position: absolute;
+    right: -312px;
+    bottom: -389.98px;
+    width: 684px;
+    height: 684px;
+    background: #9cc9da;
+    filter: blur(200px);
+    border-radius: 50%;
+    opacity: 60%;
+  }
+.section-4-wrap {
+  display: flex;
+  gap: 48px;
+  margin-top: 64px;
+}
+.wrap {
+  width: 226.5px;
+  position: relative;
+}
+.wrap h2 {
+  border: 2px solid #062630;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  padding: 8.5px 13.5px;
+  margin-bottom: 24px;
+}
+.wrap img {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
