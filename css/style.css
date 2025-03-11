@@ -301,6 +301,9 @@ footer {
 .copy h6 {
     color: white;
 }
+.footer-join {
+  color: white !important;
+}
 .social {
   display: flex;
   gap: 24px;
